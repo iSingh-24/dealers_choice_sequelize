@@ -1,0 +1,61 @@
+body {
+  color: white;
+  background-color: orange;
+}
+
+h1 {
+  font-size: 50px;
+}
+
+h2 {
+  color: white;
+  font-size: 30px;
+}
+
+a {
+  font-size: larger;
+}
+
+li {
+  font-size: 30px;
+}
+
+img {
+  width: 40%;
+}
+
+.hokages {
+  background-image: url("https://static.wikia.nocookie.net/naruto/images/0/08/Gokage_hats.png/revision/latest?cb=20140220125558");
+}
+
+.hokageUL {
+  font-size: 60px;
+  color: red;
+  background-color: black;
+  display: inline-table;
+}
+
+.hokageListItem {
+  font-size: 50px;
+}
+
+.homies {
+  background-color: orange;
+  font-size: 30px;
+  width: 10%;
+}
+
+.homePage {
+  color: white;
+  background-color: black;
+  width: 40%;
+}
+
+.villages {
+  background-image: url("https://i.imgur.com/nneZV6M.gif");
+  background-size: cover;
+}
+
+.imgTwo {
+  height: 44.5%;
+}
