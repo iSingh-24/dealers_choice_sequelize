@@ -1,20 +1,7 @@
 const Sequelize = require("sequelize");
 const { DataTypes } = Sequelize;
 const db = new Sequelize(
-  process.env.DATABASE_URL || "postgres://localhost/naruto_db",
-  {
-    dialect: "postgres",
-    ssl: true,
-    protocol: "postgres",
-
-    logging: true,
-    dialectOptions: {
-      ssl: {
-        require: true,
-        rejectUnauthorized: false,
-      },
-    },
-  }
+  process.env.DATABASE_URL || "postgres://localhost/naruto_db"
 );
 
 const Village = db.define("village", {
