@@ -6,17 +6,15 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start:dev": "nodemon server",
-    "start" : "node server"
+    "start": "node server"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
     "express": "^4.17.1",
+    "nodemon": "^2.0.7",
     "pg": "^8.5.1",
     "sequelize": "^6.5.0"
-  },
-  "devDependencies": {
-    "nodemon": "^2.0.7"
   }
 }
