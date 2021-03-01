@@ -25,7 +25,8 @@ img {
 }
 
 .hokages {
-  background-image: url("https://static.wikia.nocookie.net/naruto/images/0/08/Gokage_hats.png/revision/latest?cb=20140220125558");
+  background-image: url("https://i.pinimg.com/originals/e3/5b/7d/e35b7da90fbcd6ea6dcebd547746426e.png");
+  background-size: cover;
 }
 
 .hokageUL {
